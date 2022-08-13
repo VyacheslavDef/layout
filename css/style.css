@@ -1,14 +1,17 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
-header {
-
+h1 {
+    font-size: 60px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    height: 65px;
+    align-items: center;
 }
 
 .left_row, .center_row, .right_row {
@@ -22,5 +25,103 @@ header {
     border-radius: 5px;
     padding: 4px 10px;
     font-size: 12px;
+    height: 30px;
     line-height: 18px;
+}
+
+.top {
+    background: url(../images/1.png)center center no-repeat;
+}
+
+.best_section {
+    background-color: aqua;
+}
+
+.product_section {
+    background-color: bisque;
+}
+
+.inovation_section {
+    background-color: cadetblue;
+}
+
+.review_section {
+    background-color: darkkhaki;
+}
+
+.container {
+    max-width: 1290px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.title_div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 735px;
+}
+
+.title_name_site, .discription_site {
+    margin-bottom: 100px;
+}
+
+.left_div, .right_div {
+    width: 50%;
+}
+
+.nav_site {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.btn_link {
+
+}
+
+.production_div {
+    height: 500px;
+    align-items: center;
+}
+
+.best_product {
+    height: 730px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inovation {
+    flex-direction: column;
+    height: 730px;
+    align-items: center;
+    justify-content: center;
+}
+
+.review_div {
+    height: 430px;
+}
+
+.left_position {
+    margin-left: 100%;
+    width: 50%;
+}
+
+.footer {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+}
+
+.left_div_foot {
+    width: 70%;
+    height: 450px;
+
+}
+
+.right_div_foot {
+    width: 30%;
+    height: 450px;
 }
