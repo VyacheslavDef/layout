@@ -30,23 +30,40 @@ h1 {
 }
 
 .top {
-    background: url(../images/1.png)center center no-repeat;
+    background: url(../images/2.png) center no-repeat;
+    background-size: cover;
 }
+
+.left_div {
+    background: url(../images/3.png)center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin-right: 8px;
+}
+
+.right_div {
+    background: url(../images/4.png)center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin-left: 8px;
+}
+
 
 .best_section {
-    background-color: aqua;
-}
-
-.product_section {
-    background-color: bisque;
+    background-color: black;
+    color: aliceblue;
 }
 
 .inovation_section {
-    background-color: cadetblue;
+    background: url(../images/6.png)center center no-repeat;
+    background-size: cover;
 }
 
 .review_section {
-    background-color: darkkhaki;
+    background: url(../images/7.png)center center no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -54,6 +71,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    margin-bottom: 16px;
 }
 
 .title_div {
@@ -84,6 +102,8 @@ h1 {
 .production_div {
     height: 500px;
     align-items: center;
+    display: flex;
+    margin: 0 0 16px;
 }
 
 .best_product {
@@ -105,7 +125,7 @@ h1 {
 }
 
 .left_position {
-    margin-left: 100%;
+    margin-left: 75%;
     width: 50%;
 }
 
@@ -116,8 +136,10 @@ h1 {
 }
 
 .left_div_foot {
+    margin-left: 15%;
     width: 70%;
     height: 450px;
+    display: flex;
 
 }
 
