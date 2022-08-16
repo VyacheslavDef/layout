@@ -3,6 +3,23 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 57px;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
 ul {
     padding: 0;
     list-style-type: none;
@@ -12,9 +29,6 @@ li {
     margin-bottom: 8px;
 }
 
-h1 {
-  font-size: 60px;
-}
 
 .header {
   display: flex;
@@ -65,6 +79,11 @@ h1 {
   background-size: cover;
 }
 
+.discription_site {
+  width: 500px;
+  text-align: center;
+}
+
 .left_div {
   background: url(../images/3.png) center center no-repeat;
   background-size: cover;
@@ -73,7 +92,7 @@ h1 {
   margin-right: 8px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -85,8 +104,32 @@ h1 {
   margin-left: 8px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+}
+
+.main_name {
+  margin-bottom: 13px;
+}
+
+.description {
+  margin-bottom: 25px;
+  width: 30%;
+  text-align: center;
+}
+
+.nav_site_product {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+  margin-bottom: 26px;
+}
+
+.production_div {
+  height: 500px;
+  align-items: center;
+  display: flex;
+  margin: 0 0 16px;
 }
 
 .best_section {
@@ -131,15 +174,8 @@ h1 {
 
 .nav_site {
   display: flex;
-  width: 45%;
+  width: 516px;
   justify-content: space-between;
-}
-
-.production_div {
-  height: 500px;
-  align-items: center;
-  display: flex;
-  margin: 0 0 16px;
 }
 
 .best_product {
@@ -155,6 +191,13 @@ h1 {
   align-items: center;
   justify-content: center;
   color: white;
+}
+
+.bot_row {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin-top: 30px;
 }
 
 .review_div {
